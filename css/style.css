@@ -1,0 +1,32 @@
+/*@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,400,900');*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,900');
+
+body {
+  /*font-family: 'Work Sans', sans-serif !important;*/
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.w100 {
+	font-weight: 100;
+}
+
+.w900 {
+	font-weight: 900;
+}
+
+.btn-right-rounded {
+	border-radius: 0 50rem 50rem 0;
+	padding: 5px 35px 5px 35px;
+}
+
+.vertical-text {
+	-webkit-transform: rotate(-90deg);
+	-ff-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.big-shadow {
+	-webkit-box-shadow: 30px 30px 5px 0px rgba(0,0,0,0.9);
+	-moz-box-shadow: 30px 30px 5px 0px rgba(0,0,0,0.9);
+	box-shadow: 30px 30px 5px 0px rgba(0,0,0,0.9);
+}
